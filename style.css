@@ -42,3 +42,28 @@
 .small{
   font-size: 50px;
 }
+
+/* Sponsors css;*/
+.text {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.carousel-inner > .item > img {
+  min-width: 100%;
+  min-height: 100%;
+  height:200px;
+  width:200px;
+  display: block;
+}
+
+.andrew{
+  color:black;
+  font-size:35px;
+}
+
+.ok{
+  color:black;
+  font-size:28px;
+}
