@@ -35,3 +35,32 @@ $(document).ready(function () {
   $(window).resize(util.windowResize);
   $(document).scroll(util.scrollEvent);
 });
+
+
+
+
+function showForm()
+  {
+    if (document.getElementById("contactForm").style.display == "block")
+    {
+      document.getElementById("contactForm").style.display = "none";
+    }
+    else
+    {
+    document.getElementById("contactForm").style.display = "block";
+    }
+  };
+
+
+
+  function cheeseballs()
+    {
+      if (document.getElementById("kayflock").style.display == "block")
+      {
+        document.getElementById("kayflock").style.display = "none";
+      }
+      else
+      {
+      document.getElementById("kayflock").style.display = "block";
+      }
+    };
