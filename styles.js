@@ -29,16 +29,6 @@ var util = {
   }
 };
 
-$(document).ready(function () {
-  util.scrollMenuIds = $("a.nav-link[href]");
-  $("#menu").click(util.mobileMenu);
-  $(window).resize(util.windowResize);
-  $(document).scroll(util.scrollEvent);
-});
-
-
-
-
 function showForm()
   {
     if (document.getElementById("contactForm").style.display == "block")
